@@ -8,13 +8,12 @@ Will escape the following characters:
 npm install great-escape --save
 
 ## Usage
-var greatEscape = require('great-escape')
-      escape = greateEscape.escape;
-
-  var html = '<h1>Hello World</h1>',
-      escaped = escape(html);
-
-  console.log('html', html, 'escaped', escaped);
+```javascript
+var greatEscape = require('great-escape');
+escape = greateEscape.escape;
+var html = '<h1>Hello World</h1>', escaped = escape(html);
+console.log('html', html, 'escaped', escaped);
+ ```
 
 ## Tests
 npm test
